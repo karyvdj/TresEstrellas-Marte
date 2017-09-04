@@ -1,5 +1,9 @@
-body{
+html, body{
   font-family: 'Lato', sans-serif;
+  color: #38353e;
+  overflow-x: hidden;
+  margin: 0px;
+	padding: 0px;
 }
 .navbar{
   padding: 0 8%;
@@ -35,6 +39,70 @@ body{
 .color-pinterest{
   color: #C92228;
 }
+.margin-top{
+  margin-top: 5%;
+}
+.subtitle{
+  font-weight: lighter;
+}
+
+/*SECTION SLIDER*/
+.carousel-indicators>li {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+}
+.carousel-indicators>.active{
+  background: #f6433b;
+}
+.icon-slider>ul{
+  list-style: none;
+  cursor: pointer;
+}
+.carousel-caption{
+  top: 30%;
+}
+.carousel-caption h1{
+  font-weight: lighter;
+  margin-bottom: 3%;
+}
+.icon-slider li{
+  margin: 15% 0;
+}
+.btn-danger{
+  padding: 2%;
+  margin-top: 3%;
+  border-radius: 20px;
+  font-size: 1em;
+  width: 250px;
+  background: #f6433b;
+  cursor: pointer;
+}
+.info-recipe>span{
+  margin-right: 2%;
+}
+.info-recipe>span>img{
+  vertical-align: sub;
+}
+.size-product{
+  width: 50%;
+}
+.lead {
+	font-size: .8rem;
+  color: gray;
+  margin-top: 3%;
+}
+.jumbotron {
+  width: 130px;
+	display: inline-block;
+  padding: 1%;
+}
+.jumbotron:hover {
+	border: 1px solid #f6433b;
+	width: 160px;
+}
 
 @media (max-width: 1125px){
   .navbar-social li{
@@ -52,5 +120,21 @@ body{
   }
   .navbar-toggler{
     margin-top: 0;
+  }
+  .carousel-caption{
+    top: 15%;
+  }
+}
+@media (max-width: 659px){
+  .carousel-caption{
+    top: 7%;
+  }
+}
+@media (max-width: 375px){
+  .navbar-brand{
+    margin:0 2%;
+  }
+  .size-logo{
+    width:70%;
   }
 }
