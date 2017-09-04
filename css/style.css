@@ -1,0 +1,56 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+.navbar{
+  padding: 0 8%;
+}
+.navbar-brand{
+  margin-top: 7%;
+}
+.navbar-collapse>.navbar-nav:first-child li{
+  margin: 0 5%;
+}
+.nav-link:hover{
+  border: 1px solid #f6433b;
+  border-radius: 5px;
+}
+.navbar-social{
+  margin-right: 2%;
+}
+.navbar-social li{
+  margin: 0 30%;
+  font-size: 1.5em;
+}
+.navbar-expand-lg{
+  background-image: url(../assets/img/texture-navbar.png);
+  height: 120px;
+  border-bottom: 3px solid #f6433b;
+}
+.color-fb{
+  color: #3b5998;
+}
+.color-twitter{
+  color: #00aced;
+}
+.color-pinterest{
+  color: #C92228;
+}
+
+@media (max-width: 1125px){
+  .navbar-social li{
+    margin: 0 20%;
+    font-size: 1.2em;
+  }
+  .navbar-collapse>.navbar-nav:first-child li{
+    margin: 0 3%;
+  }
+}
+@media (max-width: 991px){
+  .navbar-brand{
+    margin:auto;
+    padding-top: 5%;
+  }
+  .navbar-toggler{
+    margin-top: 0;
+  }
+}
