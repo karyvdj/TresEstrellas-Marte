@@ -125,7 +125,6 @@ html, body{
 }
 #recipe{
   background-image: url(../assets/img/fondo-recetas.png);
-  height: 100vh;
   padding: 5%;
 }
 #recipe .btns button{
@@ -168,6 +167,7 @@ button.btn.btn-secondary {
   font-size: .9rem;
   padding: .5%;
   background: #fbfaf6;
+  width: 300px;
 }
 .card-body{
   padding: 10% 2% 0 2%;
