@@ -1,6 +1,6 @@
 html, body{
   font-family: 'Lato', sans-serif;
-  color: #38353e;
+  color: #626067;
   overflow-x: hidden;
   margin: 0px;
 	padding: 0px;
@@ -39,11 +39,26 @@ html, body{
 .color-pinterest{
   color: #C92228;
 }
+ .color-yellow{
+   background: #d9c26c;
+ }
 .margin-top{
   margin-top: 5%;
 }
 .subtitle{
   font-weight: lighter;
+}
+.text-white{
+  color: white;
+}
+.padding-5{
+  padding: 3.5%;
+}
+.size-logo-s{
+  width: 55%;
+}
+.size-icon-s{
+  width: 8%;
 }
 
 /*SECTION SLIDER*/
@@ -54,7 +69,7 @@ html, body{
 	background-color: rgba(255, 255, 255, .5);
   cursor: pointer;
 }
-.carousel-indicators>.active{
+.carousel-indicators>.active, .color-red{
   background: #f6433b;
 }
 .icon-slider>ul{
@@ -71,7 +86,7 @@ html, body{
 .icon-slider li{
   margin: 15% 0;
 }
-.btn-danger{
+.carousel-caption .btn-danger{
   padding: 2%;
   margin-top: 3%;
   border-radius: 20px;
@@ -79,6 +94,9 @@ html, body{
   width: 250px;
   background: #f6433b;
   cursor: pointer;
+}
+.product{
+  padding: 0 2%;
 }
 .info-recipe>span{
   margin-right: 2%;
@@ -95,15 +113,72 @@ html, body{
   margin-top: 3%;
 }
 .jumbotron {
+  background:#f8f8f8;
   width: 130px;
 	display: inline-block;
   padding: 1%;
+  box-shadow: inset 0 0 10px 0 lightgray;
 }
 .jumbotron:hover {
 	border: 1px solid #f6433b;
 	width: 160px;
 }
+#recipe{
+  background-image: url(../assets/img/fondo-recetas.png);
+  height: 100vh;
+  padding: 5%;
+}
+#recipe .btns button{
+  margin:.5%;
+}
+.fa-envelope{
+	color: #d9c26c;
+}
+button.btn.btn-secondary {
+    background-color: white;
+    border: none;
+}
+.btn-suscribete{
+  width: 200px;
+}
+ .contact_section{
+   padding: 0 12%;
+ }
+ .contact_section ul{
+   margin: 2% 0;
+   padding-left: 0;
+ }
+ .contact_section h6{
+   margin-bottom: 12%;
+ }
+ .contact_section li {
+	list-style: none;
+	margin-bottom: 6%;
+	color: lightgray;
+}
+.product{
+  margin-top: 3%;
+}
+.contact li {
+ margin-bottom: 0;
+}
+.card{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: .9rem;
+  padding: .5%;
+  background: #fbfaf6;
+}
+.card-body{
+  padding: 10% 2% 0 2%;
+}
+.icon-img{
+  top: 58%;
+  left: 40%;
+  position: absolute;
+}
 
+/*MEDIA*/
 @media (max-width: 1125px){
   .navbar-social li{
     margin: 0 20%;
